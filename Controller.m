@@ -46,8 +46,8 @@
 	
 	
 	//add traymenu
-    TrayMenu *menu = [[TrayMenu alloc] initWithController:self];
-    [NSApp setDelegate:menu];
+    // TrayMenu *menu = [[TrayMenu alloc] initWithController:self];
+    // [NSApp setDelegate:menu];
     [NSApp run];
 	
 	[pool release];
